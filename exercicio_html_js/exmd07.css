@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+button {
+    background-color: rgb(108, 237, 108);
+    font-size: 14px;
+    color: white;
+    font-style: italic;
+    border: none;
+    cursor: pointer;
+    
+}
+
+
+input, button {
+    
+    padding: 7px;
+    margin-top: 8px;
+    width: 58%;
+    border-radius: 7px;
+    font-weight: bold;
+    border-width: thin;    
+}
+
+button:hover {
+    background-color: #27ae60;
+}
+
+input:hover {
+    background-color: #d2d8d6;
+}
+.container {
+    margin: 80px auto;
+    max-width: 640px;
+    width: 100%;
+    text-align: center;
+}
+
+#mensagem-errada {
+    color: #cd2323;
+    display: none;
+}
+
+body.erro #mensagem-errada {
+    display: block;
+    padding-top: 8px;
+    
+}
+
+#mensagem-certa {
+    color: green;
+    display: none;
+    border-color: black;
+}
+
+body.certo #mensagem-certa {
+    display: block;
+    padding-top: 8px;
+}
+
+#mensagem-valid {
+    display: none;
+}
+
+body.valida #mensagem-valid {
+    display: block;
+    padding-top: 8px;
+}

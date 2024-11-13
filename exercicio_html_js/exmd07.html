@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex Modulo7</title>
+    <link rel="stylesheet" href="exmd07.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Valida Campo</h1>
+        <h2>Insira os números para validação</h2>
+            <input id="campoa" type="number" required placeholder="Campo A"/>
+            <input id="campob" type="number" required placeholder="Campo B"/>
+            <button id="valida-num" onclick="validarFormulario()">Validar</button>
+            <br>
+        <span id="mensagem-errada" >Incorreto! O número do campo B deve ser maior que o número do Campo A</span>
+        <span id="mensagem-certa" >Sucesso! O número do campo B é maior que número do Campo A</span>
+        <span id="mensagem-valid" >Favor preencher o Campo A e Campo B</span>
+    </div>
+    <script src="exmd07.js" ></script>
+</body>
+</html>
